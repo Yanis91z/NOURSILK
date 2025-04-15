@@ -1,9 +1,4 @@
-/**
-* LOGIN.PHP
-*
-* Ce fichier gère l'authentification à l'interface d'administration de NOURSILK.
-* Il vérifie les identifiants fournis et crée une session pour l'administrateur.
-*/
+<?php
 
 session_start();
 
@@ -15,46 +10,61 @@ header("Expires: Thu, 01 Jan 1970 00:00:00 GMT");
 
 // Vérifier si déjà connecté
 if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true) {
-header("Location: index");
-exit;
+    header("Location: index");
+    exit;
 }
 
-// Informations de connexion admin (à sécuriser davantage dans un environnement de production)
-// Idéalement, utiliser une base de données avec des hachages sécurisés (password_hash/password_verify)
-$admin_username = "nour";
-// Utilisation d'un hash sécurisé au lieu du mot de passe en clair
-$admin_password_hash = '$2y$10$FChNVG.bQY1pCZWTsQQQNOrkMnJxG9MfVMdHVbDq/vNdoGHt5RsAK'; // Hash de "lissage2023"
+// Configuration de la base de données
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "noursilk_db";
 
-// Traitement du formulaire
+// Connexion à la base de données
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Erreur de connexion : " . $e->getMessage());
+}
+
+// Initialisation des variables de message
 $error = "";
 $message = "";
 
 // Afficher un message de déconnexion si nécessaire
 if (isset($_GET['logout']) && $_GET['logout'] == 1) {
-$message = "Vous avez été déconnecté avec succès.";
+    $message = "Vous avez été déconnecté avec succès.";
 }
 
+// Traitement du formulaire de connexion
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$username = $_POST['username'] ?? '';
-$password = $_POST['password'] ?? '';
+    $username = $_POST['username'] ?? '';
+    $password = $_POST['password'] ?? '';
 
-// Vérification des identifiants avec une méthode sécurisée
-if ($username === $admin_username && password_verify($password, $admin_password_hash)) {
-$_SESSION['admin_logged_in'] = true;
-$_SESSION['admin_username'] = $username;
+    try {
+        // Récupérer l'utilisateur
+        $stmt = $conn->prepare("SELECT * FROM users WHERE username = ?");
+        $stmt->execute([$username]);
+        $user = $stmt->fetch();
 
-// Génération d'un nouveau token CSRF pour la session
-$_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+        if ($user && password_verify($password, $user['password'])) {
+            $_SESSION['admin_logged_in'] = true;
+            $_SESSION['admin_username'] = $username;
+            $_SESSION['admin_role'] = $user['role'];
+            $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 
-header("Location: index");
-exit;
-} else {
-$error = "Identifiants incorrects.";
-
-// Enregistrer la tentative de connexion échouée (pour un audit de sécurité)
-$log_message = date('Y-m-d H:i:s') . " - Tentative de connexion échouée pour l'utilisateur: " . $username . "\n";
-file_put_contents('../admin_access_log.txt', $log_message, FILE_APPEND);
-}
+            header("Location: index");
+            exit;
+        } else {
+            $error = "Identifiants incorrects.";
+            $log_message = date('Y-m-d H:i:s') . " - Tentative de connexion échouée pour l'utilisateur: " . $username . "\n";
+            file_put_contents('../admin_access_log.txt', $log_message, FILE_APPEND);
+        }
+    } catch (PDOException $e) {
+        $error = "Erreur lors de la connexion. Veuillez réessayer.";
+        error_log("Erreur de base de données : " . $e->getMessage());
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -197,13 +207,21 @@ file_put_contents('../admin_access_log.txt', $log_message, FILE_APPEND);
     </div>
 
     <script>
-        // Script pour vider le formulaire lors du chargement de la page
+        /**
+         * Scripts de sécurité pour la page de connexion
+         * 
+         * Ces scripts assurent que :
+         * 1. Le formulaire est vidé au chargement de la page
+         * 2. La navigation avec le bouton retour est gérée de manière sécurisée
+         */
+
+        // Vider le formulaire lors du chargement de la page
         window.onload = function() {
             document.getElementById('username').value = '';
             document.getElementById('password').value = '';
         }
 
-        // Empêcher la navigation avec le bouton retour
+        // Empêcher la navigation avec le bouton retour et réinitialiser le formulaire
         window.addEventListener('pageshow', function(event) {
             var form = document.querySelector('form');
             if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
