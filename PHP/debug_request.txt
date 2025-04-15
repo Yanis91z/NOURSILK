@@ -1,0 +1,848 @@
+=== REQUÊTE HTTP 2025-04-15 22:01:16 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:01:33 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:09:19 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:10:04 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:11:27 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:11:40 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:13:03 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:13:30 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:13:33 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:13:39 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:14:09 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:16:00 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:16:15 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:16:21 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-18&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-18
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:16:25 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:19:36 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:19:44 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:21:55 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:22:05 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:22:12 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:22:53 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:23:53 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:23:59 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:24:01 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:26:10 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:26:17 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:26:21 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-18&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-18
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:26:23 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:27:25 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:28:01 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:28:24 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:28:34 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:28:56 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:29:05 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:29:12 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:29:17 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:29:30 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:29:33 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:29:36 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:29:40 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:31:02 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:32:35 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:33:18 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:33:29 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:33:33 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:33:34 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:33:35 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:34:04 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=tanin
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => tanin
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:34:07 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:43:00 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:44:06 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-16&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-16
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:44:13 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-17&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-17
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+
+=== REQUÊTE HTTP 2025-04-15 22:44:15 ===
+URL: /Noursilk/PHP/get_available_slots.php?date=2025-04-18&service=indien
+Méthode: GET
+Paramètres GET: Array
+(
+    [date] => 2025-04-18
+    [service] => indien
+)
+
+Paramètres POST: Array
+(
+)
+
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+====================
+

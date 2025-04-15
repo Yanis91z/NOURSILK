@@ -14,7 +14,9 @@ RewriteRule ^admin/([^\.]+)$ admin/$1.php [L]
 RewriteRule ^admin/?$ admin/index.php [L]
 
 # Autres réécriture pour les pages principales
-RewriteRule ^([^\.]+)$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 # Empêcher le listing des répertoires
 Options -Indexes
@@ -26,4 +28,12 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 # Rediriger index.html vers la racine
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ / [R=301,L] 
+RewriteRule ^index\.html$ / [R=301,L]
+
+# Redirection de index.php vers la racine
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Traiter les URLs propres pour l'administration
+RewriteRule ^admin$ admin/index.php [NC,L]
+RewriteRule ^admin/$ admin/index.php [NC,L]
+RewriteRule ^admin/logout$ admin/logout.php [NC,L] 

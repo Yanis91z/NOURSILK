@@ -1,0 +1,69 @@
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:19:44 ===
+Nouvelle réservation: Lissage Indien (ID: 1) de 13:00 à 16:30 (210 min)
+
+Vérification avec réservation existante: Lissage Tanin (ID: 2)
+Horaire existant: 10:00 à 13:00 (180 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:22:11 ===
+Nouvelle réservation: Lissage Indien (ID: 1) de 09:00 à 12:30 (210 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:24:00 ===
+Nouvelle réservation: Lissage Indien (ID: 1) de 13:30 à 17:00 (210 min)
+
+Vérification avec réservation existante: Lissage Indien (ID: 1)
+Horaire existant: 09:00 à 12:30 (210 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:26:22 ===
+Nouvelle réservation: Lissage Indien (ID: 1) de 09:30 à 13:00 (210 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:28:34 ===
+Nouvelle réservation: Lissage Indien (ID: 1) de 09:00 à 12:30 (210 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:28:55 ===
+Nouvelle réservation: Lissage Indien (ID: 1) de 13:00 à 16:30 (210 min)
+
+Vérification avec réservation existante: Lissage Indien (ID: 1)
+Horaire existant: 09:00 à 12:30 (210 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:29:16 ===
+Nouvelle réservation: Lissage Tanin (ID: 2) de 09:00 à 12:00 (180 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:29:36 ===
+Nouvelle réservation: Lissage Tanin (ID: 2) de 13:00 à 16:00 (180 min)
+
+Vérification avec réservation existante: Lissage Tanin (ID: 2)
+Horaire existant: 09:00 à 12:00 (180 min)
+
+Résultat: PAS DE CONFLIT
+====================
+
+=== DEBUG VÉRIFICATION CONFLIT 2025-04-15 22:34:07 ===
+Nouvelle réservation: Lissage Tanin (ID: 2) de 09:00 à 12:00 (180 min)
+
+Vérification avec réservation existante: Lissage Indien (ID: 1)
+Horaire existant: 13:00 à 16:30 (210 min)
+
+Résultat: PAS DE CONFLIT
+====================
+

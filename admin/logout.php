@@ -23,5 +23,5 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 header("Expires: Thu, 01 Jan 1970 00:00:00 GMT");
 
-header("Location: login?logout=1");
+header("Location: /Noursilk/admin/login?logout=1");
 exit;

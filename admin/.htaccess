@@ -1,31 +1,32 @@
 # Configuration Apache pour l'interface d'administration NOURSILK
 # Ce fichier contrôle les règles de réécriture d'URL et les paramètres de sécurité
 
-# Activer le moteur de réécriture d'URL
 RewriteEngine On
 
-# Masquer l'extension .php pour une meilleure présentation des URLs
+# Définir la base URL pour le développement local
+RewriteBase /Noursilk/admin/
+
+# Enlever les extensions .php
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-# Rediriger "index" vers la racine de l'administration pour une URL plus propre
-RewriteRule ^index$ / [R=301,L]
+# Redirection de index.php vers la racine admin
+RewriteRule ^index\.php$ . [R=301,L]
 
-# Prévenir l'affichage du contenu des répertoires
-Options -Indexes
+# Gestion des paramètres section
+RewriteRule ^reservations$ index.php?section=reservations [NC,L,QSA]
+RewriteRule ^clients$ index.php?section=clients [NC,L,QSA]
+RewriteRule ^logout$ logout.php [NC,L]
 
-# Limiter l'accès aux seuls fichiers nécessaires
-<FilesMatch "^(index\.php|login\.php|logout\.php)$">
+# Permettre l'accès à tous les fichiers PHP nécessaires
+<Files *.php>
     Order Allow,Deny
     Allow from all
-</FilesMatch>
+</Files>
 
-# Bloquer l'accès aux fichiers sensibles
-<FilesMatch "^(\.|config|inc)">
-    Order Allow,Deny
-    Deny from all
-</FilesMatch>
+# Empêcher le listing des répertoires
+Options -Indexes
 
 # Protection contre les attaques XSS
 <IfModule mod_headers.c>

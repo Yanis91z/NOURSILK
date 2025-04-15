@@ -1,0 +1,687 @@
+:root {
+    --color-cream: #fcf8f3;
+    --color-beige: #e8d9c5;
+    --color-beige-light: #f5efe6;
+    --color-chocolate: #6b4c35;
+    --color-chocolate-light: #8a6d54;
+    --color-chocolate-dark: #513823;
+    --shadow-soft: 0 4px 12px rgba(107, 76, 53, 0.08);
+    --shadow-medium: 0 6px 16px rgba(107, 76, 53, 0.12);
+    --border-radius: 12px;
+}
+
+/* Styles communs */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-cream);
+    margin: 0;
+    color: #333;
+}
+
+.logo {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--color-chocolate);
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--color-chocolate);
+}
+
+button {
+    background-color: var(--color-chocolate);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button:hover {
+    background-color: var(--color-chocolate-light);
+}
+
+/* Styles page de login */
+body.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container .logo {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.login-container h1 {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--color-chocolate);
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-beige);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.error {
+    color: #d9534f;
+    margin-bottom: 20px;
+}
+
+.message {
+    color: #155724;
+    background-color: #d4edda;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* Styles page d'administration */
+body.admin-page {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-beige);
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--color-chocolate);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    position: relative;
+}
+
+nav a:hover {
+    background-color: var(--color-beige-light);
+}
+
+/* Style pour le lien actif dans la navigation */
+nav a.active {
+    font-weight: 600;
+    color: var(--color-chocolate-dark);
+}
+
+nav a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-chocolate);
+}
+
+.logout {
+    color: var(--color-chocolate-dark);
+}
+
+.filters {
+    background-color: white;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filters form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.filters label {
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.date-input {
+    padding: 10px;
+    border: 1px solid var(--color-beige);
+    border-radius: 4px;
+    width: auto;
+    max-width: 200px;
+}
+
+.filters button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: var(--color-chocolate);
+    color: white;
+    font-weight: bold;
+}
+
+tr {
+    background-color: var(--color-cream);
+}
+
+tr:nth-child(even) {
+    background-color: var(--color-cream);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--color-cream);
+}
+
+tr:hover {
+    background-color: rgba(107, 76, 53, 0.1);
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.status-confirmed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-cancelled {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-updating {
+    background-color: #E2E3E5;
+    color: #383D41;
+    animation: pulse 1.5s infinite;
+}
+
+/* Animation pour le changement de statut */
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.updating {
+    position: relative;
+    border: 1px solid var(--color-chocolate) !important;
+    background-color: rgba(107, 76, 53, 0.1);
+    transition: all 0.3s ease;
+}
+
+.no-reservations {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+}
+
+.status-form {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.status-select {
+    padding: 8px 12px;
+    border: 1px solid var(--color-beige);
+    border-radius: 4px;
+    min-width: 120px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: var(--border-radius);
+    border-left: 4px solid;
+    transition: opacity 0.5s ease-out;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-left-color: #155724;
+}
+
+.alert-warning {
+    background-color: #FFF3CD;
+    color: #856404;
+    border-left-color: #856404;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-left-color: #721c24;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.export-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.export-btn {
+    background-color: var(--color-chocolate);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.export-btn:hover {
+    background-color: var(--color-chocolate-light);
+}
+
+.calendar-icon {
+    font-size: 1.2em;
+}
+
+.export-single {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: var(--color-chocolate-light);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.export-single:hover {
+    background-color: var(--color-chocolate);
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--color-chocolate);
+}
+
+h2#clients {
+    margin-top: 20px;
+}
+
+#clients {
+    margin-top: 40px;
+}
+
+/* Styles pour la recherche client */
+.search-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow-soft);
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
+    padding: 10px 15px;
+    border: 1px solid var(--color-beige);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.search-button,
+.reset-search {
+    padding: 10px 20px;
+    border-radius: 6px;
+    white-space: nowrap;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    min-width: 120px;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    line-height: 1.4;
+    height: 40px;
+}
+
+.search-button {
+    background-color: var(--color-chocolate);
+    color: white;
+    border: none;
+}
+
+.search-button:hover {
+    background-color: var(--color-chocolate-light);
+}
+
+.reset-search {
+    color: var(--color-chocolate);
+    text-decoration: none;
+    border: 1px solid var(--color-chocolate);
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+
+.reset-search:hover {
+    background-color: var(--color-chocolate);
+    color: white;
+}
+
+/* Modal pour l'édition de client */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: var(--color-cream);
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-medium);
+    width: 90%;
+    max-width: 600px;
+}
+
+.close-modal {
+    float: right;
+    font-size: 1.8em;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--color-chocolate);
+    margin-top: -10px;
+}
+
+.close-modal:hover {
+    color: var(--color-chocolate-dark);
+}
+
+.modal h3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--color-chocolate);
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-beige);
+    padding-bottom: 15px;
+}
+
+.edit-client-btn {
+    background-color: var(--color-chocolate-light);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.edit-client-btn:hover {
+    background-color: var(--color-chocolate);
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-actions button {
+    padding: 10px 20px;
+}
+
+.cancel-btn {
+    background-color: #6c757d;
+}
+
+.cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+.save-btn {
+    background-color: var(--color-chocolate);
+}
+
+.save-btn:hover {
+    background-color: var(--color-chocolate-dark);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .filters form {
+        flex-wrap: wrap;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .search-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-input {
+        max-width: none;
+    }
+}
+
+.filter-options {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.filter-options button,
+.reset-filter {
+    padding: 10px 20px;
+    border-radius: 6px;
+    white-space: nowrap;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    line-height: 1.4;
+    height: 40px;
+    cursor: pointer;
+}
+
+.filter-options button {
+    background-color: var(--color-chocolate);
+    color: white;
+    border: none;
+    min-width: 120px;
+}
+
+.filter-options button:hover {
+    background-color: var(--color-chocolate-light);
+}
+
+.reset-filter {
+    color: var(--color-chocolate);
+    text-decoration: none;
+    margin-left: 4px;
+    border: 1px solid var(--color-chocolate);
+    background-color: transparent;
+    transition: all 0.2s ease;
+    min-width: 200px;
+}
+
+.reset-filter:hover {
+    background-color: var(--color-chocolate);
+    color: white;
+}
+
+/* Style pour les lignes de nouvelles dates */
+tr.new-date {
+    border-top: 2px solid var(--color-chocolate);
+}
+
+tr.new-date td {
+    background-color: var(--color-beige-light);
+    font-weight: 500;
+}
+
+/* Style pour la date d'aujourd'hui */
+tr.today td:first-child {
+    font-weight: bold;
+    color: var(--color-chocolate-dark);
+}
+
+/* Ajouter une couleur de fond plus légère pour les lignes alternées */
+tr:nth-child(even):not(.new-date) {
+    background-color: var(--color-cream);
+}
+
+.date-label {
+    display: block;
+    font-size: 0.85em;
+    color: var(--color-chocolate);
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* Ajuster la largeur de la colonne date */
+table th:first-child,
+table td:first-child {
+    min-width: 130px;
+}

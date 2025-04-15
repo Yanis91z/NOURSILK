@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOURSILK - Salon de lissage naturel</title>
+    <title>NOURSILK</title>
     <!-- Polices Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap"
         rel="stylesheet">
     <!-- Feuille de style principale -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
     <!-- En-tête avec logo et slogan -->
-    <header style="background-color: #f5efe6;">
-        <h1><a href="./" style="text-decoration: none; color: #513823;">NOURSILK</a></h1>
-        <h2 style="color: #8a6d54;">HAIR STYLING</h2>
+    <header>
+        <h1><a href="./">NOURSILK</a></h1>
+        <h2>HAIR STYLING</h2>
     </header>
 
     <!-- Navigation principale -->
@@ -171,7 +171,7 @@
     <!-- Section de réservation -->
     <section id="reservation" class="reservation">
         <h2>Réservation</h2>
-        <form action="process_reservation.php" method="POST">
+        <form action="PHP/process_reservation.php" method="POST">
             <label for="name">Nom</label>
             <input type="text" id="name" name="name" required>
 
@@ -183,7 +183,8 @@
 
             <label>Type de lissage souhaité</label>
             <div class="radio-group">
-                <label for="indien"><input type="radio" id="indien" name="service" value="indien" required> Lissage
+                <label for="indien"><input type="radio" id="indien" name="service" value="indien" checked required>
+                    Lissage
                     Indien</label>
                 <label for="tanin"><input type="radio" id="tanin" name="service" value="tanin"> Lissage Tanin</label>
             </div>
@@ -195,21 +196,20 @@
             <select id="time" name="time" required disabled>
                 <option value="">Sélectionnez d'abord une date</option>
             </select>
-            <div id="loading-slots" style="display: none;">Chargement des créneaux disponibles...</div>
-            <div id="no-slots-message" style="display: none; color: #b33; margin-top: 5px;">Aucun créneau disponible
-                pour cette date. Veuillez choisir une autre date.</div>
+            <div id="loading-slots">Chargement des créneaux disponibles...</div>
+            <div id="no-slots-message">Aucun créneau disponible pour cette date. Veuillez choisir une autre date.</div>
 
             <button type="submit">Réserver</button>
         </form>
 
         <!-- Message de confirmation -->
-        <div id="confirmation" class="confirmation-message" style="display: none;">
+        <div id="confirmation" class="confirmation-message success-message">
             Votre réservation a été enregistrée avec succès ! Nous vous contacterons prochainement pour confirmer votre
             rendez-vous.
-            <div id="calendar-link" style="display: none; margin-top: 15px;">
+            <div id="calendar-link">
                 <a href="#" id="google-calendar-link" class="calendar-button" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/768px-Google_Calendar_icon_%282020%29.svg.png"
-                        style="height: 20px; vertical-align: middle; margin-right: 8px;">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/768px-Google_Calendar_icon_%282020%29.svg.png">
                     Ajouter à Google Calendar
                 </a>
             </div>
@@ -278,231 +278,34 @@
         </svg>
     </a>
 
-    <!-- Script pour le bouton de retour en haut -->
+    <!-- JavaScript -->
+    <script src="JS/scripts.js"></script>
+    <script src="JS/reservation.js"></script>
     <script>
-        // Fonction pour le défilement fluide
-        function smoothScroll(target) {
-            const element = document.querySelector(target);
-            if (element) {
-                window.scrollTo({
-                    top: element.offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-        }
-
-        // Sélectionner le bouton de retour en haut
-        const scrollTopBtn = document.getElementById('scrollTop');
-
-        // Fonction pour afficher/cacher le bouton en fonction du défilement
-        window.onscroll = function () {
-            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                scrollTopBtn.classList.add('show');
-            } else {
-                scrollTopBtn.classList.remove('show');
-            }
-        };
-
-        // Ajouter un événement de clic pour le défilement fluide sur le bouton de retour en haut
-        scrollTopBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        // Ajouter le défilement fluide à tous les liens de navigation et au bouton de réservation
+        console.log('Scripts chargés - Vérification de la réservation');
+        // Vérifier si les fichiers sont correctement chargés
         document.addEventListener('DOMContentLoaded', function () {
-            // Sélectionner tous les liens de navigation et le bouton de réservation
-            const links = document.querySelectorAll('nav a, .service-cta');
+            console.log('Page complètement chargée');
+            console.log('Scripts chargés:',
+                typeof loadAvailableTimeSlots === 'function' ? 'reservation.js OK' : 'reservation.js MANQUANT');
 
-            links.forEach(link => {
-                link.addEventListener('click', function (e) {
-                    // Vérifier si le lien pointe vers une section de la page
-                    const href = this.getAttribute('href');
-                    if (href.startsWith('#')) {
-                        e.preventDefault();
-                        smoothScroll(href);
-                    }
-                });
-            });
-        });
-
-        // Script pour afficher le message de confirmation de réservation
-        document.addEventListener('DOMContentLoaded', function () {
-            // Vérifier si l'URL contient le paramètre de succès de réservation
-            const urlParams = new URLSearchParams(window.location.search);
-            if (urlParams.get('reservation') === 'success') {
-                // Afficher le message de confirmation
-                const confirmationMessage = document.getElementById('confirmation');
-                if (confirmationMessage) {
-                    confirmationMessage.style.display = 'block';
-
-                    // Vérifier s'il y a un lien de calendrier dans la session PHP
-                    fetch('get_calendar_link.php')
-                        .then(response => response.json())
-                        .then(data => {
-                            if (data.calendarLink) {
-                                const calendarLinkContainer = document.getElementById('calendar-link');
-                                const calendarLink = document.getElementById('google-calendar-link');
-
-                                calendarLink.href = data.calendarLink;
-                                calendarLinkContainer.style.display = 'block';
-                            }
-                        })
-                        .catch(error => console.error('Erreur:', error));
-
-                    // Faire défiler jusqu'au message de confirmation
-                    confirmationMessage.scrollIntoView({ behavior: 'smooth' });
-                }
-            } else if (urlParams.get('reservation') === 'error') {
-                // Afficher un message d'erreur
-                const confirmationMessage = document.getElementById('confirmation');
-                if (confirmationMessage) {
-                    confirmationMessage.style.display = 'block';
-                    confirmationMessage.innerHTML = 'Une erreur est survenue lors de l\'enregistrement de votre réservation. Veuillez réessayer ou nous contacter directement.';
-                    confirmationMessage.style.backgroundColor = '#ffdddd';
-                    confirmationMessage.style.borderColor = '#ffaaaa';
-
-                    // Faire défiler jusqu'au message d'erreur
-                    confirmationMessage.scrollIntoView({ behavior: 'smooth' });
-                }
-            }
-        });
-    </script>
-
-    <!-- Script pour la gestion des créneaux de réservation -->
-    <script>
-        function updateAvailableTimeSlots() {
-            const timeSelect = document.getElementById('time');
-            const selectedDate = document.getElementById('date').value;
-
-            // Obtenir l'heure de Paris
-            const parisTime = new Date().toLocaleString('fr-FR', {
-                timeZone: 'Europe/Paris',
-                hour12: false,
-                hour: '2-digit',
-                minute: '2-digit'
-            });
-            const [currentHour, currentMinutes] = parisTime.split(':').map(Number);
-
-            // Debug log
-            console.log('Heure actuelle (Paris):', currentHour + ':' + currentMinutes);
-
-            // Obtenir la date de Paris
-            const today = new Date().toLocaleString('fr-FR', {
-                timeZone: 'Europe/Paris',
-                year: 'numeric',
-                month: '2-digit',
-                day: '2-digit'
-            }).split('/').reverse().join('-');
-
-            // Activer/désactiver le select en fonction de la date
-            timeSelect.disabled = false;
-
-            // Définir les créneaux possibles
-            const timeSlots = [
-                "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00",
-                "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",
-                "16:00", "16:30", "17:00", "17:30"
-            ];
-
-            // Vider la liste des créneaux
-            timeSelect.innerHTML = '<option value="">Choisir un horaire</option>';
-
-            // Si la date sélectionnée est aujourd'hui, filtrer les créneaux passés
-            if (selectedDate === today) {
-                // Debug log
-                console.log('Date sélectionnée est aujourd\'hui');
-                console.log('Heure actuelle (Paris):', currentHour + ':' + currentMinutes);
-
-                // Ne pas afficher de créneaux si on est après 17h30
-                if (currentHour >= 18 || (currentHour === 17 && currentMinutes > 30)) {
-                    console.log('Après 17h30, plus de créneaux disponibles');
-                    const option = document.createElement('option');
-                    option.value = "";
-                    option.textContent = "Plus de créneaux disponibles aujourd'hui";
-                    timeSelect.innerHTML = '';
-                    timeSelect.appendChild(option);
-                    timeSelect.disabled = true;
-                    return;
-                }
-
-                timeSlots.forEach(slot => {
-                    const [slotHour, slotMinutes] = slot.split(':').map(Number);
-
-                    // Debug log pour chaque créneau
-                    console.log('Vérification créneau:', slotHour + ':' + slotMinutes);
-
-                    // Vérifier si le créneau est dans le futur avec une marge de 30 minutes
-                    const slotTime = slotHour * 60 + slotMinutes;
-                    const currentTime = currentHour * 60 + currentMinutes;
-
-                    // On ajoute la marge de 30 minutes dans la comparaison
-                    if (slotTime >= currentTime + 30) {
-                        const option = document.createElement('option');
-                        option.value = slot + ':00';
-                        option.textContent = slot;
-                        timeSelect.appendChild(option);
-
-                        // Debug log pour les créneaux ajoutés
-                        console.log('Créneau ajouté:', slot);
-                    } else {
-                        console.log('Créneau ignoré:', slot, '(trop tôt)');
-                    }
-                });
-            } else if (selectedDate > today) {
-                // Pour les dates futures, afficher tous les créneaux
-                console.log('Date future sélectionnée');
-                timeSlots.forEach(slot => {
-                    const option = document.createElement('option');
-                    option.value = slot + ':00';
-                    option.textContent = slot;
-                    timeSelect.appendChild(option);
-                });
-            }
-
-            // Si aucun créneau n'est disponible
-            if (timeSelect.options.length === 1) {
-                const option = document.createElement('option');
-                option.value = "";
-                option.textContent = "Aucun créneau disponible";
-                timeSelect.innerHTML = '';
-                timeSelect.appendChild(option);
-                timeSelect.disabled = true;
-            }
-
-            // Debug final
-            console.log('Nombre de créneaux disponibles:', timeSelect.options.length - 1);
-        }
-
-        // Mettre à jour les créneaux au chargement et quand la date change
-        document.addEventListener('DOMContentLoaded', function () {
+            // Variables importantes du formulaire
             const dateInput = document.getElementById('date');
+            const timeSelect = document.getElementById('time');
+            const serviceRadios = document.querySelectorAll('input[name="service"]');
 
-            // Définir la date minimale à aujourd'hui (en utilisant le fuseau horaire de Paris)
-            const today = new Date().toLocaleString('fr-FR', {
-                timeZone: 'Europe/Paris',
-                year: 'numeric',
-                month: '2-digit',
-                day: '2-digit'
-            }).split('/').reverse().join('-');
+            console.log('Éléments du formulaire:', {
+                'dateInput': dateInput ? 'OK' : 'MANQUANT',
+                'timeSelect': timeSelect ? 'OK' : 'MANQUANT',
+                'serviceRadios': serviceRadios.length + ' trouvés'
+            });
 
-            dateInput.min = today;
-
-            // Si aucune date n'est sélectionnée, mettre la date d'aujourd'hui
-            if (!dateInput.value) {
-                dateInput.value = today;
+            // Valeurs initiales
+            if (dateInput) console.log('Date actuelle:', dateInput.value);
+            if (serviceRadios.length > 0) {
+                const checked = Array.from(serviceRadios).find(r => r.checked);
+                console.log('Service sélectionné:', checked ? checked.value : 'aucun');
             }
-
-            updateAvailableTimeSlots();
-
-            // Mettre à jour les créneaux quand la date change
-            dateInput.addEventListener('change', updateAvailableTimeSlots);
-
-            // Mettre à jour les créneaux toutes les minutes pour garder l'affichage à jour
-            setInterval(updateAvailableTimeSlots, 60000);
         });
     </script>
 </body>

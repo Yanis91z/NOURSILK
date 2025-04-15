@@ -1,0 +1,3241 @@
+=== DEBUG RÉSERVATIONS 2025-04-15 22:01:16 ===
+Date demandée: 2025-04-16
+Service sélectionné: indien
+Durée du service: 210 min
+Nombre de réservations confirmées: 1
+
+Réservation: début à 10:00, durée 180 min, statut: confirmé
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+- Créneau 10:00 bloqué (tombe pendant la réservation)
+- Créneau 10:30 bloqué (tombe pendant la réservation)
+- Créneau 11:00 bloqué (tombe pendant la réservation)
+- Créneau 11:30 bloqué (tombe pendant la réservation)
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:01:33 ===
+Date demandée: 2025-04-16
+Service sélectionné: indien
+Durée du service: 210 min
+Nombre de réservations confirmées: 1
+
+Réservation: début à 10:00, durée 180 min, statut: confirmé
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+- Créneau 10:00 bloqué (tombe pendant la réservation)
+- Créneau 10:30 bloqué (tombe pendant la réservation)
+- Créneau 11:00 bloqué (tombe pendant la réservation)
+- Créneau 11:30 bloqué (tombe pendant la réservation)
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:09:19 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:10:04 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:11:27 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:11:40 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:13:03 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:13:30 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:13:33 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:13:39 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:14:09 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:16:00 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:16:15 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:16:21 ===
+Date demandée: 2025-04-18
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:16:25 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:19:36 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:19:44 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:21:55 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:22:05 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:22:12 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:22:53 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:23:53 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:23:59 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:24:01 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:26:10 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:26:17 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:30, Durée: 210 min
+  Fin: 17:00
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:30, durée 210 min
+Heure de fin calculée: 17:00
+Bloque les créneaux entre 13:30 et 17:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:30 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00, 16:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:26:21 ===
+Date demandée: 2025-04-18
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:26:23 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:27:25 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:28:01 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min
+  Fin: 13:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 10:00, durée 180 min
+Heure de fin calculée: 13:00
+Bloque les créneaux entre 10:00 et 13:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 10:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:28:24 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:28:34 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:28:56 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:29:05 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:29:12 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:29:17 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:29:30 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:29:33 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 09:00, Durée: 180 min
+  Fin: 12:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 09:00, durée 180 min
+Heure de fin calculée: 12:00
+Bloque les créneaux entre 09:00 et 12:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:29:36 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:29:40 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:31:02 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:32:35 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min
+  Fin: 12:30
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 09:00, durée 210 min
+Heure de fin calculée: 12:30
+Bloque les créneaux entre 09:00 et 12:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:33:18 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:33:29 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:33:33 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:33:34 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:33:35 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:34:04 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: tanin
+Durée du service sélectionné: 180 min
+Nombre de réservations confirmées pour cette date: 1
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:34:07 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 09:00, Durée: 180 min
+  Fin: 12:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 09:00, durée 180 min
+Heure de fin calculée: 12:00
+Bloque les créneaux entre 09:00 et 12:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:43:00 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 09:00, Durée: 180 min
+  Fin: 12:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 09:00, durée 180 min
+Heure de fin calculée: 12:00
+Bloque les créneaux entre 09:00 et 12:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:44:06 ===
+Date demandée: 2025-04-16
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 09:00, Durée: 180 min
+  Fin: 12:00
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min
+  Fin: 16:30
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 09:00, durée 180 min
+Heure de fin calculée: 12:00
+Bloque les créneaux entre 09:00 et 12:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Indien (ID: 1)
+Début à 13:00, durée 210 min
+Heure de fin calculée: 16:30
+Bloque les créneaux entre 13:00 et 16:30
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - CONFLIT DÉTECTÉ: Créneau 16:00 bloqué (en conflit avec la réservation de Lissage Indien)
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 210 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:44:13 ===
+Date demandée: 2025-04-17
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 2
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Réservations existantes pour cette date (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 09:00, Durée: 180 min
+  Fin: 12:00
+- Service: Lissage Tanin (ID: 2)
+  Début: 13:00, Durée: 180 min
+  Fin: 16:00
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 09:00, durée 180 min
+Heure de fin calculée: 12:00
+Bloque les créneaux entre 09:00 et 12:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 09:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 10:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 11:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:00 disponible
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 13:30 disponible
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:00 disponible
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 14:30 disponible
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:00 disponible
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 15:30 disponible
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 09:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Traitement de la réservation: Lissage Tanin (ID: 2)
+Début à 13:00, durée 180 min
+Heure de fin calculée: 16:00
+Bloque les créneaux entre 13:00 et 16:00
+  Vérification du créneau 09:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:00 disponible
+  Vérification du créneau 09:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 09:30 disponible
+  Vérification du créneau 10:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 10:00 disponible
+  Vérification du créneau 10:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 10:30 disponible
+  Vérification du créneau 11:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 11:00 disponible
+  Vérification du créneau 11:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 11:30 disponible
+  Vérification du créneau 13:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 13:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 13:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 14:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 14:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 14:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 15:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:00 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 15:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - CONFLIT DÉTECTÉ: Créneau 15:30 bloqué (en conflit avec la réservation de Lissage Tanin)
+  Vérification du créneau 16:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:00 disponible
+  Vérification du créneau 16:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 16:30 disponible
+  Vérification du créneau 17:00 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:00 disponible
+  Vérification du créneau 17:30 (durée 30 min) avec réservation 13:00 (durée 180 min):
+  - PAS DE CONFLIT: Créneau 17:30 disponible
+
+Créneaux indisponibles: 09:00, 09:30, 10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30
+====================
+
+=== DEBUG RÉSERVATIONS 2025-04-15 22:44:15 ===
+Date demandée: 2025-04-18
+Service sélectionné dans le formulaire: indien
+Durée du service sélectionné: 210 min
+Nombre de réservations confirmées pour cette date: 0
+Paramètres de configuration: Ouverture 09:00 - Fermeture 18:00 - Durée de créneau 30 min
+
+
+Créneaux indisponibles: 
+====================
+

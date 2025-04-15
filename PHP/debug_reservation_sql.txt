@@ -1,0 +1,82 @@
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:19:44 ===
+Date demandée: 2025-04-16
+Nouvelle réservation: Service Lissage Indien (ID: 1) à 13:00 pour 210 min
+Heure de fin prévue: 16:30
+
+Réservations existantes (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 10:00, Durée: 180 min, Fin: 13:00
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:22:11 ===
+Date demandée: 2025-04-17
+Nouvelle réservation: Service Lissage Indien (ID: 1) à 09:00 pour 210 min
+Heure de fin prévue: 12:30
+
+Réservations existantes (tous services confondus):
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:24:00 ===
+Date demandée: 2025-04-17
+Nouvelle réservation: Service Lissage Indien (ID: 1) à 13:30 pour 210 min
+Heure de fin prévue: 17:00
+
+Réservations existantes (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min, Fin: 12:30
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:26:22 ===
+Date demandée: 2025-04-18
+Nouvelle réservation: Service Lissage Indien (ID: 1) à 09:30 pour 210 min
+Heure de fin prévue: 13:00
+
+Réservations existantes (tous services confondus):
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:28:34 ===
+Date demandée: 2025-04-16
+Nouvelle réservation: Service Lissage Indien (ID: 1) à 09:00 pour 210 min
+Heure de fin prévue: 12:30
+
+Réservations existantes (tous services confondus):
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:28:55 ===
+Date demandée: 2025-04-16
+Nouvelle réservation: Service Lissage Indien (ID: 1) à 13:00 pour 210 min
+Heure de fin prévue: 16:30
+
+Réservations existantes (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 09:00, Durée: 210 min, Fin: 12:30
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:29:16 ===
+Date demandée: 2025-04-17
+Nouvelle réservation: Service Lissage Tanin (ID: 2) à 09:00 pour 180 min
+Heure de fin prévue: 12:00
+
+Réservations existantes (tous services confondus):
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:29:36 ===
+Date demandée: 2025-04-17
+Nouvelle réservation: Service Lissage Tanin (ID: 2) à 13:00 pour 180 min
+Heure de fin prévue: 16:00
+
+Réservations existantes (tous services confondus):
+- Service: Lissage Tanin (ID: 2)
+  Début: 09:00, Durée: 180 min, Fin: 12:00
+====================
+
+=== DEBUG SQL RÉSERVATION 2025-04-15 22:34:07 ===
+Date demandée: 2025-04-16
+Nouvelle réservation: Service Lissage Tanin (ID: 2) à 09:00 pour 180 min
+Heure de fin prévue: 12:00
+
+Réservations existantes (tous services confondus):
+- Service: Lissage Indien (ID: 1)
+  Début: 13:00, Durée: 210 min, Fin: 16:30
+====================
+

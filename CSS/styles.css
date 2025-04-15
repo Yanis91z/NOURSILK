@@ -50,6 +50,11 @@ header h1 {
     letter-spacing: 2px;
 }
 
+header h1 a {
+    text-decoration: none;
+    color: var(--color-chocolate-dark);
+}
+
 header h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -118,7 +123,8 @@ header h2 {
 .reservation,
 .testimonials,
 .contact,
-.about-nour {
+.about-nour,
+.confirmation-message {
     padding: 50px 20px;
     text-align: center;
     max-width: 900px;
@@ -168,7 +174,7 @@ header h2 {
     padding: 30px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-soft);
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -180,7 +186,7 @@ header h2 {
 
 .video-section video {
     width: 85%;
-    max-width: 900px;
+    max-width: 800px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-medium);
 }
@@ -191,6 +197,9 @@ header h2 {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 100px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service {
@@ -416,7 +425,7 @@ header h2 {
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-soft);
     text-align: left;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -473,38 +482,28 @@ header h2 {
     cursor: not-allowed;
 }
 
-/* Indicateur de chargement et message d'erreur */
-#loading-slots,
-#no-slots-message {
-    font-size: 0.9em;
-    margin-top: -15px;
-    margin-bottom: 20px;
-    text-align: left;
-    padding-left: 2px;
-}
-
+/* Styles pour les indicateurs de chargement */
 #loading-slots {
-    color: var(--color-chocolate-light);
-    display: flex;
-    align-items: center;
+    display: none;
+    color: #997950;
+    font-size: 0.9em;
+    margin-top: 5px;
+    padding: 8px;
+    background-color: rgba(255, 248, 240, 0.8);
+    border-radius: var(--border-radius);
+    text-align: center;
 }
 
-#loading-slots::before {
-    content: "";
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    margin-right: 8px;
-    border: 2px solid var(--color-beige-dark);
-    border-top-color: var(--color-chocolate);
-    border-radius: 50%;
-    animation: spin 1s infinite linear;
-}
-
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
+#no-slots-message {
+    display: none;
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border-left: 4px solid #721c24;
+    margin-top: 5px;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 /* Styles pour les options du sélecteur */
@@ -744,17 +743,56 @@ footer {
 
 /* ===== MESSAGE DE CONFIRMATION RÉSERVATION ===== */
 .confirmation-message {
-    background-color: var(--color-beige-light);
-    border-left: 5px solid var(--color-chocolate);
-    padding: 20px;
+    display: none;
     margin-top: 30px;
+    padding: 30px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-soft);
-    text-align: center;
-    color: var(--color-chocolate);
     font-weight: 500;
+    text-align: center;
     line-height: 1.6;
     animation: fadeIn 0.5s ease-in-out;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.confirmation-message.success-message,
+#confirmation.success-message,
+#confirmation.confirmation-message.success-message {
+    background-color: #d4edda !important;
+    /* Vert clair */
+    color: #155724 !important;
+    border-left: 5px solid #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.confirmation-message.error-message {
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+    border-left: 5px solid #dc3545;
+}
+
+#confirmation {
+    background-color: var(--color-cream) !important;
+    /* Fond crème */
+    color: var(--color-chocolate) !important;
+    box-shadow: var(--shadow-soft) !important;
+    border-radius: var(--border-radius) !important;
+    padding: 30px !important;
+    max-width: 800px !important;
+    /* Même largeur que le formulaire */
+    margin: 15px auto !important;
+    box-sizing: border-box !important;
+    width: auto !important;
+    /* Changé de 100% à auto */
+}
+
+/* Ajouter cette règle pour s'assurer que le formulaire et le message ont les mêmes dimensions */
+.reservation form,
+#confirmation.confirmation-message {
+    max-width: 800px !important;
+    box-sizing: border-box !important;
 }
 
 @keyframes fadeIn {
@@ -784,4 +822,76 @@ footer {
 
 .calendar-button:hover {
     background-color: #3367D6;
+}
+
+/* Messages de la section Réservation */
+#loading-slots,
+#no-slots-message {
+    display: none;
+}
+
+#loading-slots {
+    color: var(--color-chocolate-light);
+}
+
+#no-slots-message {
+    color: #b33;
+    margin-top: 5px;
+}
+
+/* Confirmation de réservation */
+.confirmation-message {
+    display: none;
+}
+
+#calendar-link {
+    display: none;
+    margin-top: 15px;
+}
+
+.calendar-button img {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Styles pour les messages d'information et de confirmation */
+#no-slots-message {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.info-message,
+.error-message {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.success-message {
+    background-color: #d4edda;
+    /* Vert clair */
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#confirmation {
+    background-color: var(--color-cream);
+    /* Fond crème */
+    padding: 30px;
+    border-radius: var(--border-radius);
+    margin: 15px 0;
+    width: 100%;
+    color: var(--color-chocolate);
+    box-shadow: var(--shadow-soft);
 }

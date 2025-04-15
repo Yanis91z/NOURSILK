@@ -1,0 +1,99 @@
+=== DEBUG FORMULAIRE 2025-04-15 22:19:44 ===
+Nom: Yanis Chaili
+Email: chailiyanis.pro@gmail.com
+Téléphone: 0625903956
+Service (valeur brute): 'indien'
+Type de service: string
+Service détecté: Indien (ID: 1)
+Date: 2025-04-16
+Heure: 13:00
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:22:11 ===
+Nom: Yanis Chaili
+Email: chailiyanis.pro@gmail.com
+Téléphone: 0625903956
+Service (valeur brute): 'indien'
+Type de service: string
+Service détecté: Indien (ID: 1)
+Date: 2025-04-17
+Heure: 09:00
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:24:00 ===
+Nom: Yanis Chaili
+Email: chailiyanis.pro@gmail.com
+Téléphone: 0625903956
+Service (valeur brute): 'indien'
+Type de service: string
+Service détecté: Indien (ID: 1)
+Date: 2025-04-17
+Heure: 13:30
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:26:22 ===
+Nom: Yanis Chaili
+Email: chailiyanis.pro@gmail.com
+Téléphone: 0625903956
+Service (valeur brute): 'indien'
+Type de service: string
+Service détecté: Indien (ID: 1)
+Date: 2025-04-18
+Heure: 09:30
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:28:34 ===
+Nom: Yanis Chaili
+Email: chailiyanis.pro@gmail.com
+Téléphone: 0625903956
+Service (valeur brute): 'indien'
+Type de service: string
+Service détecté: Indien (ID: 1)
+Date: 2025-04-16
+Heure: 09:00
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:28:55 ===
+Nom: Abdou Hassan
+Email: abdou@hotmail.fr
+Téléphone: 0625903954
+Service (valeur brute): 'indien'
+Type de service: string
+Service détecté: Indien (ID: 1)
+Date: 2025-04-16
+Heure: 13:00
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:29:16 ===
+Nom: Anais
+Email: anais@gmail.com
+Téléphone: 0625903951
+Service (valeur brute): 'tanin'
+Type de service: string
+Service détecté: Tanin (ID: 2)
+Date: 2025-04-17
+Heure: 09:00
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:29:36 ===
+Nom: Shaima
+Email: shaima@gmail.com
+Téléphone: 0625903959
+Service (valeur brute): 'tanin'
+Type de service: string
+Service détecté: Tanin (ID: 2)
+Date: 2025-04-17
+Heure: 13:00
+====================
+
+=== DEBUG FORMULAIRE 2025-04-15 22:34:07 ===
+Nom: Yanis Chaili
+Email: chailiyanis.pro@gmail.com
+Téléphone: 0625903956
+Service (valeur brute): 'tanin'
+Type de service: string
+Service détecté: Tanin (ID: 2)
+Date: 2025-04-16
+Heure: 09:00
+====================
+

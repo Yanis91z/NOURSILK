@@ -1,0 +1,689 @@
+=== DEBUG SERVICE 2025-04-15 22:01:16 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:01:33 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:09:19 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:10:04 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:11:27 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:11:40 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:13:03 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:13:30 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:13:33 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:13:39 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:14:09 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:16:00 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:16:15 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:16:21 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:16:25 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:19:36 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:19:44 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:21:55 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:22:05 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:22:12 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:22:53 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:23:53 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:23:59 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:24:01 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:26:10 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:26:17 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:26:21 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:26:23 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:27:25 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:28:01 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:28:24 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:28:34 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:28:56 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:29:05 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:29:12 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:29:17 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:29:30 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:29:33 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:29:36 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:29:40 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:31:02 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:32:35 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:33:18 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:33:29 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:33:33 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:33:34 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:33:35 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:34:04 ===
+Service reçu dans paramètre GET: 'tanin'
+Type: string
+Service identifié comme 'Tanin' (ID: 2)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 2
+Résultat de la requête: {"id":2,"nom":"Lissage Tanin","duree_max":180}
+Service trouvé: Lissage Tanin (ID: 2, Durée: 180 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:34:07 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:43:00 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:44:06 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:44:13 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
+=== DEBUG SERVICE 2025-04-15 22:44:15 ===
+Service reçu dans paramètre GET: 'indien'
+Type: string
+Service identifié comme 'Indien' (ID: 1)
+Requête SQL avec ID: SELECT id, nom, duree_max FROM services WHERE id = 1
+Résultat de la requête: {"id":1,"nom":"Lissage Indien","duree_max":210}
+Service trouvé: Lissage Indien (ID: 1, Durée: 210 min)
+
+Tous les services disponibles dans la base de données:
+- ID: 1, Nom: Lissage Indien, Durée: 210 min
+- ID: 2, Nom: Lissage Tanin, Durée: 180 min
+====================
+
