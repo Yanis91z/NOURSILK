@@ -77,7 +77,12 @@ try {
         JOIN clients c ON r.client_id = c.id
         JOIN services s ON r.service_id = s.id
         WHERE r.date_reservation = :date_filter
-        ORDER BY r.heure_reservation ASC
+        ORDER BY 
+            CASE r.statut 
+                WHEN 'confirmé' THEN 1
+                WHEN 'annulé' THEN 2
+            END,
+            r.heure_reservation ASC
     ");
     $stmt->execute(['date_filter' => $date_filter]);
     $reservations = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -395,9 +400,6 @@ try {
                                     case 'confirmé':
                                         $status_class = 'status-confirmed';
                                         break;
-                                    case 'en attente':
-                                        $status_class = 'status-pending';
-                                        break;
                                     case 'annulé':
                                         $status_class = 'status-cancelled';
                                         break;
@@ -413,7 +415,6 @@ try {
                                     <input type="hidden" name="date_filter" value="<?php echo $date_filter; ?>">
                                     <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
                                     <select name="status" class="status-select">
-                                        <option value="en attente" <?php echo $reservation['statut'] === 'en attente' ? 'selected' : ''; ?>>En attente</option>
                                         <option value="confirmé" <?php echo $reservation['statut'] === 'confirmé' ? 'selected' : ''; ?>>Confirmé</option>
                                         <option value="annulé" <?php echo $reservation['statut'] === 'annulé' ? 'selected' : ''; ?>>Annulé</option>
                                     </select>

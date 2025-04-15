@@ -15,9 +15,9 @@
 
 <body>
     <!-- En-tête avec logo et slogan -->
-    <header>
-        <h1><a href="./" style="text-decoration: none; color: inherit;">NOURSILK</a></h1>
-        <h2>ÉCLAT NATUREL, BRILLANCE INTEMPORELLE</h2>
+    <header style="background-color: #f5efe6;">
+        <h1><a href="./" style="text-decoration: none; color: #513823;">NOURSILK</a></h1>
+        <h2 style="color: #8a6d54;">HAIR STYLING</h2>
     </header>
 
     <!-- Navigation principale -->
@@ -192,7 +192,12 @@
             <input type="date" id="date" name="date" required>
 
             <label for="time">Heure</label>
-            <input type="time" id="time" name="time" required>
+            <select id="time" name="time" required disabled>
+                <option value="">Sélectionnez d'abord une date</option>
+            </select>
+            <div id="loading-slots" style="display: none;">Chargement des créneaux disponibles...</div>
+            <div id="no-slots-message" style="display: none; color: #b33; margin-top: 5px;">Aucun créneau disponible
+                pour cette date. Veuillez choisir une autre date.</div>
 
             <button type="submit">Réserver</button>
         </form>
@@ -325,7 +330,107 @@
                     // Faire défiler jusqu'au message de confirmation
                     confirmationMessage.scrollIntoView({ behavior: 'smooth' });
                 }
+            } else if (urlParams.get('reservation') === 'error') {
+                // Afficher un message d'erreur
+                const confirmationMessage = document.getElementById('confirmation');
+                if (confirmationMessage) {
+                    confirmationMessage.style.display = 'block';
+                    confirmationMessage.innerHTML = 'Une erreur est survenue lors de l\'enregistrement de votre réservation. Veuillez réessayer ou nous contacter directement.';
+                    confirmationMessage.style.backgroundColor = '#ffdddd';
+                    confirmationMessage.style.borderColor = '#ffaaaa';
+
+                    // Faire défiler jusqu'au message d'erreur
+                    confirmationMessage.scrollIntoView({ behavior: 'smooth' });
+                }
             }
+        });
+    </script>
+
+    <!-- Script pour la gestion des créneaux de réservation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dateInput = document.getElementById('date');
+            const timeSelect = document.getElementById('time');
+            const loadingIndicator = document.getElementById('loading-slots');
+            const noSlotsMessage = document.getElementById('no-slots-message');
+
+            // Définir la date minimale à aujourd'hui
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0');
+            const dd = String(today.getDate()).padStart(2, '0');
+            const formattedToday = `${yyyy}-${mm}-${dd}`;
+            dateInput.min = formattedToday;
+
+            // Fonction pour charger les créneaux disponibles
+            function loadAvailableSlots(date) {
+                // Réinitialiser le sélecteur d'heure
+                timeSelect.innerHTML = '<option value="">Chargement des créneaux...</option>';
+                timeSelect.disabled = true;
+
+                // Afficher l'indicateur de chargement
+                loadingIndicator.style.display = 'block';
+                noSlotsMessage.style.display = 'none';
+
+                // Appel AJAX pour récupérer les créneaux disponibles
+                fetch(`get_available_slots.php?date=${date}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Cacher l'indicateur de chargement
+                        loadingIndicator.style.display = 'none';
+
+                        // Vérifier si la requête a réussi
+                        if (data.success && data.available_slots && data.available_slots.length > 0) {
+                            // Vider le sélecteur
+                            timeSelect.innerHTML = '';
+
+                            // Ajouter une option par défaut
+                            const defaultOption = document.createElement('option');
+                            defaultOption.value = '';
+                            defaultOption.textContent = 'Choisissez un créneau';
+                            defaultOption.selected = true;
+                            defaultOption.disabled = true;
+                            timeSelect.appendChild(defaultOption);
+
+                            // Ajouter les créneaux disponibles
+                            data.available_slots.forEach(slot => {
+                                const option = document.createElement('option');
+                                option.value = slot;
+
+                                // Formater l'affichage de l'heure (ex: "14:30" -> "14h30")
+                                const [hours, minutes] = slot.split(':');
+                                option.textContent = `${hours}h${minutes}`;
+
+                                timeSelect.appendChild(option);
+                            });
+
+                            // Activer le sélecteur
+                            timeSelect.disabled = false;
+                        } else {
+                            // Pas de créneaux disponibles
+                            timeSelect.innerHTML = '<option value="">Aucun créneau disponible</option>';
+                            timeSelect.disabled = true;
+                            noSlotsMessage.style.display = 'block';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Erreur:', error);
+                        loadingIndicator.style.display = 'none';
+                        timeSelect.innerHTML = '<option value="">Erreur de chargement</option>';
+                        timeSelect.disabled = true;
+                    });
+            }
+
+            // Événement de changement de date
+            dateInput.addEventListener('change', function () {
+                if (this.value) {
+                    loadAvailableSlots(this.value);
+                } else {
+                    timeSelect.innerHTML = '<option value="">Sélectionnez d\'abord une date</option>';
+                    timeSelect.disabled = true;
+                    noSlotsMessage.style.display = 'none';
+                }
+            });
         });
     </script>
 </body>

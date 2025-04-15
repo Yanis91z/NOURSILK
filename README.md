@@ -4,7 +4,7 @@ Ce système permet aux clients de réserver des prestations de lissage chez Nour
 
 ## Fonctionnalités
 
-- **Formulaire de réservation** pour les clients
+- **Formulaire de réservation intelligent** avec affichage des créneaux disponibles
 - **Panneau d'administration** pour gérer les réservations
 - **Intégration avec Zapier et Google Calendar** pour l'automatisation
 - **Gestion sécurisée** des comptes administrateur
@@ -13,6 +13,7 @@ Ce système permet aux clients de réserver des prestations de lissage chez Nour
 
 - `index.html` : Page d'accueil et formulaire de réservation
 - `process_reservation.php` : Traitement des réservations et intégration Zapier
+- `get_available_slots.php` : API pour récupérer les créneaux disponibles
 - `admin/` : Interface d'administration
   - `index.php` : Gestion des réservations et clients
   - `login.php` : Authentification administrateur
@@ -30,63 +31,71 @@ Ce système permet aux clients de réserver des prestations de lissage chez Nour
    -- Importer le fichier database.sql
    ```
 
-3. Configurer les paramètres de connexion à la base de données dans `process_reservation.php`
+3. Configurer les paramètres de connexion à la base de données dans les fichiers PHP
+
+## Système de réservation
+
+Le système de réservation a été optimisé pour une meilleure expérience utilisateur :
+
+### Gestion des créneaux disponibles
+
+- Les créneaux horaires sont affichés dynamiquement selon les disponibilités
+- Prise en compte des réservations existantes pour éviter les chevauchements
+- Exclusion automatique des créneaux passés pour la journée en cours
+- Respect des horaires d'ouverture (9h-18h) et de la pause déjeuner (12h-13h)
+
+### Statut des réservations
+
+Le système utilise deux statuts pour les réservations :
+- **Confirmé** : Statut par défaut lors de la création d'une réservation
+- **Annulé** : Pour les réservations qui ont été annulées
+
+Les réservations sont automatiquement confirmées à la création pour simplifier le processus.
+
+## Intégration Google Calendar via Zapier
+
+À chaque nouvelle réservation, les détails sont automatiquement envoyés à Zapier qui crée un événement dans Google Calendar avec :
+- Le nom du client
+- Le type de service
+- La date et l'heure
+- La durée prévue
+- Les coordonnées du client
 
 ## Technologie utilisée
 
 - HTML/CSS pour l'interface utilisateur
+- JavaScript pour les interactions dynamiques
 - PHP pour le backend
 - MySQL pour la base de données
 - Zapier pour l'automatisation des calendriers
 
-## Crédits
-
-Développé par Yanis pour Noursilk, 2025.
-
-## Ajout automatique des réservations au Google Calendar de Nour
-
-Le système propose plusieurs méthodes pour ajouter les réservations au Google Calendar de Nour :
-
-### 1. Notifications par email (Méthode principale)
-
-À chaque nouvelle réservation, un email est envoyé à l'adresse `chailiyanis.pro@gmail.com` avec :
-- Les détails de la réservation (client, service, date, heure...)
-- Une pièce jointe au format iCalendar (.ics)
-
-**Comment utiliser** :
-1. Ouvrez l'email depuis Gmail
-2. La pièce jointe .ics sera automatiquement détectée par Gmail
-3. Cliquez sur "Ajouter à mon calendrier" qui apparaît dans l'email
-
-### 2. Fichiers HTML avec liens Google Calendar (Méthode alternative)
-
-Pour chaque réservation, un fichier HTML est créé dans le dossier `gcal_links/` avec :
-- Un résumé des détails de la réservation
-- Un bouton qui ouvre Google Calendar avec les détails pré-remplis
-
-**Comment utiliser** :
-1. Accédez au dossier `gcal_links/` sur le serveur
-2. Ouvrez le fichier HTML correspondant à la réservation
-3. Cliquez sur le bouton "Ajouter à Google Calendar"
-4. Vérifiez les détails et cliquez sur "Enregistrer" dans Google Calendar
-
-### 3. Fichier de log (Sauvegarde)
-
-Toutes les réservations sont également enregistrées dans un fichier `reservations_log.txt` qui sert d'historique.
-
 ## Configuration
 
-Si vous souhaitez changer l'adresse email de destination :
+### Horaires d'ouverture
 
-1. Ouvrez le fichier `process_reservation.php`
-2. Recherchez la ligne suivante (environ ligne 95) :
-   ```php
-   $nour_email = "chailiyanis.pro@gmail.com";
-   ```
-3. Remplacez par l'adresse email souhaitée
+Vous pouvez modifier les horaires d'ouverture et les jours de fermeture dans le fichier `get_available_slots.php` :
 
-## Remarques importantes
+```php
+// Définir les heures d'ouverture
+$opening_hour = 9;    // 9h00
+$closing_hour = 18;   // 18h00
+$slot_duration = 30;  // minutes par créneau
+$lunch_start = 12;    // 12h00
+$lunch_end = 13;      // 13h00
 
-- L'envoi d'emails peut ne pas fonctionner en environnement local (MAMP) si aucun serveur mail n'est configuré.
-- Dans ce cas, utilisez la méthode des fichiers HTML (option 2).
-- Assurez-vous que le dossier `gcal_links/` a les permissions d'écriture appropriées. 
+// Jours de fermeture (0 = dimanche, 6 = samedi)
+$closed_days = [0];   // Fermé le dimanche
+```
+
+### Webhook Zapier
+
+Pour modifier l'URL du webhook Zapier, modifiez la variable dans le fichier `process_reservation.php` :
+
+```php
+// URL du webhook Zapier
+$webhook_url = "https://hooks.zapier.com/hooks/catch/22528164/207wzzd/";
+```
+
+## Crédits
+
+Développé par Yanis pour Noursilk, 2025. 

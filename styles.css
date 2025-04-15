@@ -411,39 +411,112 @@ header h2 {
 
 /* ===== SECTION RÉSERVATION ===== */
 .reservation form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
+    background-color: var(--color-beige-light);
+    padding: 35px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .reservation form label {
+    display: block;
+    margin-bottom: 8px;
     font-weight: 500;
     color: var(--color-chocolate);
-    letter-spacing: 0.5px;
 }
 
+/* Styles pour les champs de formulaire, y compris le nouveau sélecteur d'heure */
 .reservation form input[type="text"],
 .reservation form input[type="email"],
 .reservation form input[type="tel"],
 .reservation form input[type="date"],
-.reservation form input[type="time"] {
+.reservation form select {
     width: 100%;
-    max-width: 400px;
-    padding: 12px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
     border: 1px solid var(--color-beige-dark);
     border-radius: 6px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
-    background-color: var(--color-cream);
-    color: var(--color-text);
     font-family: 'Montserrat', sans-serif;
-    transition: border-color 0.3s ease;
+    font-size: 0.95em;
+    color: var(--color-text);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: white;
+    box-sizing: border-box;
 }
 
-.reservation form input:focus {
+/* Focus sur les champs de formulaire */
+.reservation form input:focus,
+.reservation form select:focus {
     outline: none;
     border-color: var(--color-chocolate-light);
+    box-shadow: 0 0 0 2px rgba(138, 109, 84, 0.2);
+}
+
+/* Style spécifique pour le sélecteur d'heure */
+.reservation form select#time {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b4c35' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 16px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+/* Style pour le sélecteur désactivé */
+.reservation form select:disabled {
+    background-color: #f5f5f5;
+    color: #999;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Indicateur de chargement et message d'erreur */
+#loading-slots,
+#no-slots-message {
+    font-size: 0.9em;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 2px;
+}
+
+#loading-slots {
+    color: var(--color-chocolate-light);
+    display: flex;
+    align-items: center;
+}
+
+#loading-slots::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    border: 2px solid var(--color-beige-dark);
+    border-top-color: var(--color-chocolate);
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Styles pour les options du sélecteur */
+.reservation form select option {
+    padding: 10px;
+    background-color: white;
+    color: var(--color-text);
+}
+
+.reservation form select option:first-child {
+    font-style: italic;
+    color: #888;
 }
 
 .radio-group {
@@ -481,18 +554,23 @@ header h2 {
     background-color: var(--color-chocolate);
     color: white;
     border: none;
-    padding: 14px 32px;
-    border-radius: 6px;
-    cursor: pointer;
+    padding: 14px 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    letter-spacing: 1px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
     text-transform: uppercase;
-    transition: background-color 0.3s ease;
+    letter-spacing: 1.5px;
 }
 
 .reservation form button:hover {
     background-color: var(--color-chocolate-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* ===== SECTION TÉMOIGNAGES ===== */
