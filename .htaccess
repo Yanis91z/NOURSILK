@@ -1,0 +1,29 @@
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# Si le fichier ou répertoire demandé existe, servir directement
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Réécriture URL pour le répertoire admin
+# Transformation de /admin/login en /admin/login.php
+RewriteRule ^admin/([^\.]+)$ admin/$1.php [L]
+
+# Redirection de /admin vers /admin/index.php
+RewriteRule ^admin/?$ admin/index.php [L]
+
+# Autres réécriture pour les pages principales
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# Empêcher le listing des répertoires
+Options -Indexes
+
+# Masquer l'extension .html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Rediriger index.html vers la racine
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ / [R=301,L] 

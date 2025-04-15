@@ -1,0 +1,25 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.log
+
+# Fichiers d'environnement et de configuration sensibles
+*.env
+config.php
+credentials.json
+token.json
+
+# Fichiers de log
+*.log
+webhook_log.txt
+admin_access_log.txt
+reservations_log.txt
+
+# Dossiers de fichiers temporaires ou archives
+/gcal_links/*.html
+
+# Fichiers spécifiques à l'IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace 
