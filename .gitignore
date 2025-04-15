@@ -1,5 +1,10 @@
 # Fichiers système
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 *.log
 
@@ -12,8 +17,10 @@ token.json
 # Fichiers de log
 *.log
 webhook_log.txt
-admin_access_log.txt
+webhook_debug.txt
+debug_log.txt
 reservations_log.txt
+zapier_diagnostic_result.txt
 
 # Dossiers de fichiers temporaires ou archives
 /gcal_links/*.html
