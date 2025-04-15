@@ -280,7 +280,18 @@
 
     <!-- Script pour le bouton de retour en haut -->
     <script>
-        // Sélectionner le bouton
+        // Fonction pour le défilement fluide
+        function smoothScroll(target) {
+            const element = document.querySelector(target);
+            if (element) {
+                window.scrollTo({
+                    top: element.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Sélectionner le bouton de retour en haut
         const scrollTopBtn = document.getElementById('scrollTop');
 
         // Fonction pour afficher/cacher le bouton en fonction du défilement
@@ -292,14 +303,29 @@
             }
         };
 
-        // Ajouter un événement de clic pour le défilement fluide
+        // Ajouter un événement de clic pour le défilement fluide sur le bouton de retour en haut
         scrollTopBtn.addEventListener('click', function (e) {
             e.preventDefault();
-
-            // Animation de défilement fluide
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
+            });
+        });
+
+        // Ajouter le défilement fluide à tous les liens de navigation et au bouton de réservation
+        document.addEventListener('DOMContentLoaded', function () {
+            // Sélectionner tous les liens de navigation et le bouton de réservation
+            const links = document.querySelectorAll('nav a, .service-cta');
+
+            links.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    // Vérifier si le lien pointe vers une section de la page
+                    const href = this.getAttribute('href');
+                    if (href.startsWith('#')) {
+                        e.preventDefault();
+                        smoothScroll(href);
+                    }
+                });
             });
         });
 
@@ -348,89 +374,135 @@
 
     <!-- Script pour la gestion des créneaux de réservation -->
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const dateInput = document.getElementById('date');
+        function updateAvailableTimeSlots() {
             const timeSelect = document.getElementById('time');
-            const loadingIndicator = document.getElementById('loading-slots');
-            const noSlotsMessage = document.getElementById('no-slots-message');
+            const selectedDate = document.getElementById('date').value;
 
-            // Définir la date minimale à aujourd'hui
-            const today = new Date();
-            const yyyy = today.getFullYear();
-            const mm = String(today.getMonth() + 1).padStart(2, '0');
-            const dd = String(today.getDate()).padStart(2, '0');
-            const formattedToday = `${yyyy}-${mm}-${dd}`;
-            dateInput.min = formattedToday;
+            // Obtenir l'heure de Paris
+            const parisTime = new Date().toLocaleString('fr-FR', {
+                timeZone: 'Europe/Paris',
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            const [currentHour, currentMinutes] = parisTime.split(':').map(Number);
 
-            // Fonction pour charger les créneaux disponibles
-            function loadAvailableSlots(date) {
-                // Réinitialiser le sélecteur d'heure
-                timeSelect.innerHTML = '<option value="">Chargement des créneaux...</option>';
-                timeSelect.disabled = true;
+            // Debug log
+            console.log('Heure actuelle (Paris):', currentHour + ':' + currentMinutes);
 
-                // Afficher l'indicateur de chargement
-                loadingIndicator.style.display = 'block';
-                noSlotsMessage.style.display = 'none';
+            // Obtenir la date de Paris
+            const today = new Date().toLocaleString('fr-FR', {
+                timeZone: 'Europe/Paris',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit'
+            }).split('/').reverse().join('-');
 
-                // Appel AJAX pour récupérer les créneaux disponibles
-                fetch(`get_available_slots.php?date=${date}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        // Cacher l'indicateur de chargement
-                        loadingIndicator.style.display = 'none';
+            // Activer/désactiver le select en fonction de la date
+            timeSelect.disabled = false;
 
-                        // Vérifier si la requête a réussi
-                        if (data.success && data.available_slots && data.available_slots.length > 0) {
-                            // Vider le sélecteur
-                            timeSelect.innerHTML = '';
+            // Définir les créneaux possibles
+            const timeSlots = [
+                "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00",
+                "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",
+                "16:00", "16:30", "17:00", "17:30"
+            ];
 
-                            // Ajouter une option par défaut
-                            const defaultOption = document.createElement('option');
-                            defaultOption.value = '';
-                            defaultOption.textContent = 'Choisissez un créneau';
-                            defaultOption.selected = true;
-                            defaultOption.disabled = true;
-                            timeSelect.appendChild(defaultOption);
+            // Vider la liste des créneaux
+            timeSelect.innerHTML = '<option value="">Choisir un horaire</option>';
 
-                            // Ajouter les créneaux disponibles
-                            data.available_slots.forEach(slot => {
-                                const option = document.createElement('option');
-                                option.value = slot;
+            // Si la date sélectionnée est aujourd'hui, filtrer les créneaux passés
+            if (selectedDate === today) {
+                // Debug log
+                console.log('Date sélectionnée est aujourd\'hui');
+                console.log('Heure actuelle (Paris):', currentHour + ':' + currentMinutes);
 
-                                // Formater l'affichage de l'heure (ex: "14:30" -> "14h30")
-                                const [hours, minutes] = slot.split(':');
-                                option.textContent = `${hours}h${minutes}`;
+                // Ne pas afficher de créneaux si on est après 17h30
+                if (currentHour >= 18 || (currentHour === 17 && currentMinutes > 30)) {
+                    console.log('Après 17h30, plus de créneaux disponibles');
+                    const option = document.createElement('option');
+                    option.value = "";
+                    option.textContent = "Plus de créneaux disponibles aujourd'hui";
+                    timeSelect.innerHTML = '';
+                    timeSelect.appendChild(option);
+                    timeSelect.disabled = true;
+                    return;
+                }
 
-                                timeSelect.appendChild(option);
-                            });
+                timeSlots.forEach(slot => {
+                    const [slotHour, slotMinutes] = slot.split(':').map(Number);
 
-                            // Activer le sélecteur
-                            timeSelect.disabled = false;
-                        } else {
-                            // Pas de créneaux disponibles
-                            timeSelect.innerHTML = '<option value="">Aucun créneau disponible</option>';
-                            timeSelect.disabled = true;
-                            noSlotsMessage.style.display = 'block';
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Erreur:', error);
-                        loadingIndicator.style.display = 'none';
-                        timeSelect.innerHTML = '<option value="">Erreur de chargement</option>';
-                        timeSelect.disabled = true;
-                    });
+                    // Debug log pour chaque créneau
+                    console.log('Vérification créneau:', slotHour + ':' + slotMinutes);
+
+                    // Vérifier si le créneau est dans le futur avec une marge de 30 minutes
+                    const slotTime = slotHour * 60 + slotMinutes;
+                    const currentTime = currentHour * 60 + currentMinutes;
+
+                    // On ajoute la marge de 30 minutes dans la comparaison
+                    if (slotTime >= currentTime + 30) {
+                        const option = document.createElement('option');
+                        option.value = slot + ':00';
+                        option.textContent = slot;
+                        timeSelect.appendChild(option);
+
+                        // Debug log pour les créneaux ajoutés
+                        console.log('Créneau ajouté:', slot);
+                    } else {
+                        console.log('Créneau ignoré:', slot, '(trop tôt)');
+                    }
+                });
+            } else if (selectedDate > today) {
+                // Pour les dates futures, afficher tous les créneaux
+                console.log('Date future sélectionnée');
+                timeSlots.forEach(slot => {
+                    const option = document.createElement('option');
+                    option.value = slot + ':00';
+                    option.textContent = slot;
+                    timeSelect.appendChild(option);
+                });
             }
 
-            // Événement de changement de date
-            dateInput.addEventListener('change', function () {
-                if (this.value) {
-                    loadAvailableSlots(this.value);
-                } else {
-                    timeSelect.innerHTML = '<option value="">Sélectionnez d\'abord une date</option>';
-                    timeSelect.disabled = true;
-                    noSlotsMessage.style.display = 'none';
-                }
-            });
+            // Si aucun créneau n'est disponible
+            if (timeSelect.options.length === 1) {
+                const option = document.createElement('option');
+                option.value = "";
+                option.textContent = "Aucun créneau disponible";
+                timeSelect.innerHTML = '';
+                timeSelect.appendChild(option);
+                timeSelect.disabled = true;
+            }
+
+            // Debug final
+            console.log('Nombre de créneaux disponibles:', timeSelect.options.length - 1);
+        }
+
+        // Mettre à jour les créneaux au chargement et quand la date change
+        document.addEventListener('DOMContentLoaded', function () {
+            const dateInput = document.getElementById('date');
+
+            // Définir la date minimale à aujourd'hui (en utilisant le fuseau horaire de Paris)
+            const today = new Date().toLocaleString('fr-FR', {
+                timeZone: 'Europe/Paris',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit'
+            }).split('/').reverse().join('-');
+
+            dateInput.min = today;
+
+            // Si aucune date n'est sélectionnée, mettre la date d'aujourd'hui
+            if (!dateInput.value) {
+                dateInput.value = today;
+            }
+
+            updateAvailableTimeSlots();
+
+            // Mettre à jour les créneaux quand la date change
+            dateInput.addEventListener('change', updateAvailableTimeSlots);
+
+            // Mettre à jour les créneaux toutes les minutes pour garder l'affichage à jour
+            setInterval(updateAvailableTimeSlots, 60000);
         });
     </script>
 </body>

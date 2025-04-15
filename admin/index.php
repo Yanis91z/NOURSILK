@@ -35,32 +35,112 @@ try {
 // Paramètre pour filtrer par date
 $date_filter = $_GET['date'] ?? date('Y-m-d'); // Par défaut aujourd'hui
 
-// Mise à jour du statut d'une réservation si demandé
+// Mise à jour du statut
 if (isset($_POST['update_status'])) {
-    $reservation_id = $_POST['reservation_id'] ?? 0;
-    $new_status = $_POST['status'] ?? '';
-    $date_redirect = $_POST['date_filter'] ?? $date_filter;
-    $token = $_POST['csrf_token'] ?? '';
+    $id = $_POST['id'];
+    $new_status = $_POST['new_status'];
+    $old_status = $_POST['current_status'];
+    $date_redirect = $_GET['date'] ?? date('Y-m-d');
 
-    // Vérifier le token CSRF
-    if (!empty($token) && hash_equals($_SESSION['csrf_token'], $token)) {
-        if ($reservation_id && $new_status) {
-            try {
-                $stmt = $conn->prepare("UPDATE reservations SET statut = :statut WHERE id = :id");
-                $stmt->execute([
-                    'statut' => $new_status,
-                    'id' => $reservation_id
-                ]);
-                // Rediriger vers GET pour éviter la résoumission du formulaire
-                header("Location: index?date=" . $date_redirect . "&status_updated=1");
-                exit;
-            } catch (PDOException $e) {
-                $error_message = "Erreur lors de la mise à jour: " . $e->getMessage();
-            }
+    // Log pour débogage avec chemin absolu
+    $debug_log = "=== DEBUG STATUS UPDATE " . date('Y-m-d H:i:s') . " ===\n";
+    $debug_log .= "ID: $id\n";
+    $debug_log .= "Ancien statut (from POST): $old_status\n";
+    $debug_log .= "Nouveau statut: $new_status\n";
+    $debug_log .= "POST data: " . print_r($_POST, true) . "\n";
+
+    try {
+        // Vérifier d'abord le statut actuel dans la base de données
+        $check_stmt = $conn->prepare("SELECT statut FROM reservations WHERE id = ?");
+        $check_stmt->execute([$id]);
+        $current_db_status = $check_stmt->fetchColumn();
+
+        $debug_log .= "Statut actuel dans la DB: $current_db_status\n";
+
+        // Récupérer les informations de la réservation
+        $stmt = $conn->prepare("
+            SELECT r.date_reservation, r.heure_reservation, s.nom as service_nom, c.nom as client_nom,
+                   c.email, c.telephone, s.duree_max, r.statut as current_status
+            FROM reservations r
+            JOIN services s ON r.service_id = s.id
+            JOIN clients c ON r.client_id = c.id
+            WHERE r.id = ?
+        ");
+        $stmt->execute([$id]);
+        $reservation = $stmt->fetch();
+
+        $debug_log .= "Données réservation complètes:\n" . print_r($reservation, true) . "\n";
+
+        // Vérifier si le changement de statut est autorisé
+        $status_change_allowed = true;
+        $error_message = '';
+
+        if ($current_db_status === 'annulé') {
+            $status_change_allowed = false;
+            $error_message = "Impossible de modifier une réservation annulée.";
         }
-    } else {
-        $error_message = "Erreur de sécurité: token invalide.";
+
+        if ($status_change_allowed) {
+            // Mettre à jour le statut
+            $update_stmt = $conn->prepare("UPDATE reservations SET statut = ? WHERE id = ?");
+            $update_result = $update_stmt->execute([$new_status, $id]);
+            $debug_log .= "Résultat de la mise à jour: " . ($update_result ? "succès" : "échec") . "\n";
+
+            // Si on passe de confirmé à en attente OU à annulé
+            if ($current_db_status === 'confirmé' && ($new_status === 'en attente' || $new_status === 'annulé')) {
+                require_once '../webhook_functions.php';
+                $result = sendWebhookToZapierForCancellation(
+                    $reservation['client_nom'],
+                    $reservation['service_nom'],
+                    $reservation['date_reservation'],
+                    $reservation['heure_reservation']
+                );
+                $debug_log .= "Suppression de l'événement Google Calendar: " . ($result ? "succès" : "échec") . "\n";
+            }
+
+            // Si on passe de en attente à confirmé
+            if ($current_db_status === 'en attente' && $new_status === 'confirmé') {
+                require_once '../webhook_functions.php';
+
+                // Récupérer la durée du service
+                $service_stmt = $conn->prepare("SELECT duree_max FROM services WHERE nom = ?");
+                $service_stmt->execute([$reservation['service_nom']]);
+                $service_duree = $service_stmt->fetchColumn();
+
+                $result = sendWebhookToZapier(
+                    $reservation['client_nom'],
+                    $reservation['email'],
+                    $reservation['telephone'],
+                    $reservation['service_nom'],
+                    $reservation['date_reservation'],
+                    $reservation['heure_reservation'],
+                    $service_duree
+                );
+                $debug_log .= "Création de l'événement Google Calendar: " . ($result ? "succès" : "échec") . "\n";
+            }
+
+            // Si on passe à annulé, on libère le créneau
+            if ($new_status === 'annulé') {
+                $stmt = $conn->prepare("UPDATE reservations SET creneau_libere = 1 WHERE id = ?");
+                $stmt->execute([$id]);
+                $debug_log .= "Créneau libéré\n";
+            }
+
+            $debug_log .= "Statut mis à jour avec succès\n";
+            header("Location: index.php?date=" . $date_redirect . "&status_updated=1");
+        } else {
+            $debug_log .= "Changement de statut non autorisé: $error_message\n";
+            header("Location: index.php?date=" . $date_redirect . "&error=" . urlencode($error_message));
+        }
+    } catch (PDOException $e) {
+        $error_message = "Erreur lors de la mise à jour: " . $e->getMessage();
+        $debug_log .= "ERREUR: " . $e->getMessage() . "\n";
+        header("Location: index.php?date=" . $date_redirect . "&error=" . urlencode($error_message));
     }
+
+    $debug_log .= "====================\n\n";
+    file_put_contents(__DIR__ . '/debug_log.txt', $debug_log, FILE_APPEND);
+    exit;
 }
 
 // Message de succès basé sur le paramètre GET
@@ -72,7 +152,7 @@ if (isset($_GET['status_updated']) && $_GET['status_updated'] == 1) {
 try {
     $stmt = $conn->prepare("
         SELECT r.id, c.nom, c.email, c.telephone, s.nom as service_nom, r.date_reservation, 
-               r.heure_reservation, r.statut, r.date_creation
+               r.heure_reservation, r.statut, r.date_creation, r.creneau_libere
         FROM reservations r
         JOIN clients c ON r.client_id = c.id
         JOIN services s ON r.service_id = s.id
@@ -80,7 +160,8 @@ try {
         ORDER BY 
             CASE r.statut 
                 WHEN 'confirmé' THEN 1
-                WHEN 'annulé' THEN 2
+                WHEN 'en_attente' THEN 2
+                WHEN 'annulé' THEN 3
             END,
             r.heure_reservation ASC
     ");
@@ -400,6 +481,9 @@ try {
                                     case 'confirmé':
                                         $status_class = 'status-confirmed';
                                         break;
+                                    case 'en_attente':
+                                        $status_class = 'status-pending';
+                                        break;
                                     case 'annulé':
                                         $status_class = 'status-cancelled';
                                         break;
@@ -411,14 +495,15 @@ try {
                             </td>
                             <td>
                                 <form method="POST" action="" class="status-form">
-                                    <input type="hidden" name="reservation_id" value="<?php echo $reservation['id']; ?>">
-                                    <input type="hidden" name="date_filter" value="<?php echo $date_filter; ?>">
+                                    <input type="hidden" name="id" value="<?php echo $reservation['id']; ?>">
+                                    <input type="hidden" name="current_status" value="<?php echo htmlspecialchars($reservation['statut']); ?>">
                                     <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-                                    <select name="status" class="status-select">
+                                    <select name="new_status" class="status-select" <?php echo $reservation['statut'] === 'annulé' ? 'disabled' : ''; ?>>
                                         <option value="confirmé" <?php echo $reservation['statut'] === 'confirmé' ? 'selected' : ''; ?>>Confirmé</option>
+                                        <option value="en attente" <?php echo $reservation['statut'] === 'en attente' ? 'selected' : ''; ?>>En attente</option>
                                         <option value="annulé" <?php echo $reservation['statut'] === 'annulé' ? 'selected' : ''; ?>>Annulé</option>
                                     </select>
-                                    <button type="submit" name="update_status">Modifier</button>
+                                    <button type="submit" name="update_status" <?php echo $reservation['statut'] === 'annulé' ? 'disabled' : ''; ?>>Modifier</button>
                                 </form>
                             </td>
                         </tr>
